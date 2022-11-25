@@ -27,7 +27,7 @@ fn main() {
             // Remove trailing whitespaces
             input = input.trim().to_string();
             // Verify that input is a char
-            if input.len() > 1 {
+            if input.len() != 1 {
                 println!("Input must be a char");
                 continue;
             } else {

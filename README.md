@@ -14,7 +14,7 @@ The goal is pretty simple - write TCP clients on as many languages as possible.
 - [ ] ASM
 - [ ] NodeJS
 - [x] Ruby
-- [ ] Erlang
+- [x] Erlang
 - [x] Go
 
 ### Optional languages
