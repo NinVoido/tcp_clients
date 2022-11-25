@@ -14,7 +14,7 @@ int main() {
   // Specify server address
   struct sockaddr_in addr;
   addr.sin_family = AF_INET;
-  addr.sin_port = htons(1234);
+  addr.sin_port = htons(2000);
   addr.sin_addr.s_addr = INADDR_ANY;
   // Connect to the socket
   int status = connect(nsocket, (struct sockaddr*) &addr, sizeof(addr));

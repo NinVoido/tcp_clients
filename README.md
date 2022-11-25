@@ -13,7 +13,7 @@ The goal is pretty simple - write TCP clients on as many languages as possible.
 - [ ] Java
 - [ ] ASM
 - [ ] NodeJS
-- [ ] Ruby
+- [x] Ruby
 - [ ] Erlang
 - [x] Go
 

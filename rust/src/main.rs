@@ -7,7 +7,7 @@ fn main() {
     let mut input = String::new();
     
     // Open TCP stream
-    let mut stream = TcpStream::connect("127.0.0.1:1234")
+    let mut stream = TcpStream::connect("127.0.0.1:2000")
             .expect("Failed to connect");
 
     // Infinite loop syntax in rust
