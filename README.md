@@ -5,7 +5,7 @@ The goal is pretty simple - write TCP clients on as many languages as possible.
 
 ### Necessary languages
 - [ ] Python
-- [ ] C#
+- [x] C#
 - [x] Rust
 - [ ] Pascal
 - [x] C
