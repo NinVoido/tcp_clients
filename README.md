@@ -9,7 +9,7 @@ The goal is pretty simple - write TCP clients on as many languages as possible.
 - [x] Rust
 - [ ] Pascal
 - [x] C
-- [ ] C++
+- [x] C++
 - [ ] Java
 - [ ] ASM
 - [ ] NodeJS
