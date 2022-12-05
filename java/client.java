@@ -18,6 +18,7 @@ class Client {
 
     while (true) {
       while (true) {
+        System.out.println("Input a char: ");
         // Read line from user
         input = inp.nextLine();
         // Check that it's a char

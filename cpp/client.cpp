@@ -18,6 +18,7 @@ int main() {
   while (true) {
     std::string input;
     while (true) {
+      std::cout << "Input a char: " << std::endl;
       // Read input
       std::cin >> input;
       // Check that input is a char
