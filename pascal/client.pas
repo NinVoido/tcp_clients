@@ -37,7 +37,7 @@ begin
     end;
     WriteLn(Sout, Buffer);
     ReadLn(Sin, Buffer);
-    WriteLn(Buffer);
+    WriteLn('Received char: ', Buffer);
   end;
   Close(Sout);
 end.
