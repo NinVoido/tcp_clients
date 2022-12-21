@@ -22,5 +22,5 @@ loop do
   # Write input to a socket
   socket.write input
   # Read server's response and print it
-  puts "Received char: " + socket.read(2)
+  puts "Received char: " + socket.read(1)
 end

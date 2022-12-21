@@ -20,7 +20,7 @@ The goal is pretty simple - write TCP clients on as many languages as possible.
 ### Optional languages
 
 - [x] Haskell
-- [x] Ada
+- [ ] Ada (kinda works)
 - [ ] Fortran
 
 ### Why not?

@@ -41,7 +41,7 @@ fn main() {
         stream.write(&[chr]).expect("Failed to send a byte");
 
         // Create 2-byte buffer for reading server response
-        let mut get_buf: [u8; 2] = [0; 2];
+        let mut get_buf: [u8; 1] = [0; 1];
         
         // Read server response
         stream
@@ -49,6 +49,6 @@ fn main() {
             .expect("Failed to read from server");
         
         // Print response as UTF-8 string
-        println!("{}", String::from_utf8_lossy(&get_buf));
+        println!("Server response: {}", String::from_utf8_lossy(&get_buf));
     }
 }

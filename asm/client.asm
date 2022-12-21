@@ -4,7 +4,7 @@ extern scanf
 section .data
 format: db "Connection failure!", 10, 0
 format_input: db "Input a char:", 10, 0
-format_char: db "%c", 0
+format_char: db " %c", 0 
 format_recv: db "Received message: %s", 10, 0
 
 section .bss

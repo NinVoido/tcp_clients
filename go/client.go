@@ -10,7 +10,7 @@ import "bufio"
 
 func main() {
 	// Open TCP stream
-	conn, _ := net.Dial("tcp", "127.0.0.1:1234")
+	conn, _ := net.Dial("tcp", "127.0.0.1:2000")
 
 	// Infinite loop
 	for {
@@ -35,8 +35,8 @@ func main() {
 		// Write user input to TCP stream
 		fmt.Fprintf(conn, text)
 		// Receive server's response
-		msg, _ := bufio.NewReader(conn).ReadString('\n')
+		msg, _ := bufio.NewReader(conn).ReadByte()
 		// Print it
-		fmt.Print("Received message: " + msg)
+		fmt.Print("Received message: " + string(msg) + "\n")
 	}
 }

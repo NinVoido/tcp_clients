@@ -38,7 +38,7 @@ int main() {
     
     boost::asio::streambuf buf;
     // Receive answer
-    boost::asio::read(socket, buf, boost::asio::transfer_exactly(2), error);
+    boost::asio::read(socket, buf, boost::asio::transfer_exactly(1), error);
    // Check for errors
     if (error && error != boost::asio::error::eof) {
       std::cout << "Error occured: " << error.message() << std::endl;

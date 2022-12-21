@@ -29,7 +29,7 @@ int main() {
   while (1) {
     printf("Input a char:\n");
     // Read user input
-    scanf("%c", &input);
+    scanf(" %c", &input);
     // Send it to the server
     send(nsocket, &input, sizeof(input), 0);
     char server_response[256];

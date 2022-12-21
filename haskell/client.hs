@@ -15,7 +15,7 @@ event_loop(s) = do
   sendAll s $ T.encodeUtf8 . T.pack $ msg
   resp <- recv s 1024
   putStr "Received: "
-  C.putStr resp
+  C.putStrLn resp
   event_loop s
 
 runTCPClient :: HostName -> ServiceName -> (Socket -> IO a) -> IO a
